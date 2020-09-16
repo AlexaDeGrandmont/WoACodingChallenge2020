@@ -1,3 +1,8 @@
-A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99. <br>
+Today is Wednesday! Spelled backwards it's yadsendew. Not very palindromic. But Chantal Brousseau, the CCSS Administrator, can think only about palindromes. You see, her boyfriend Adam just won't stop with them.<br>
 
-Find the largest palindrome made from the product of two 3-digit numbers.
+"Madam, I'm Adam.<br>
+Draw, O coward!<br>
+No sir, away! A papaya war is on!<br>
+Yo, banana boy!"<br><br>
+
+Similar to Adam's babbling, a palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99. Find the largest palindrome made from the product of two 3-digit numbers.

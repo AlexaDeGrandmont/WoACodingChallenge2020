@@ -1,5 +1,7 @@
-Starting in the top left corner of a 2×2 grid, and only being able to move to the right and down, there are exactly 6 routes to the bottom right corner. <br>
+Ah, the Carleton campus. You can remember the good ol' days of the 2019-2020 school year. You remember going to lectures, tutorials, and hanging out in the CCSS lounge. Walking on the 5th floor of Herzberg past the <a href="http://cglab.ca/">CGLab</a> having a lunch meeting... wait, what was that on the whiteboard? You remember a question they were working on...
 
-<!--image goes here-->
+Starting in the top left corner of a 2×2 grid, and only being able to move to the right and down, there are exactly 6 routes to the bottom right corner.<br>
+
+<img style="display:block; margin:auto;" src="/images/dailycode/day2hard.png" width="300px"><br>
 
 How many such routes are there through a 20×20 grid?

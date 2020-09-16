@@ -2,7 +2,7 @@ day1easy: 5537376230
 day1medium: 23514624000
 day1hard: 70600674
 day2easy: 648
-day2medium: 4613732
+day2medium: 2026369768940
 day2hard: 137846528820
 day3easy: 906609
 day3medium: 872187

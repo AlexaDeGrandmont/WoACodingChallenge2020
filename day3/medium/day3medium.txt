@@ -1,5 +1,5 @@
-The decimal number, $585 = 1001001001_2$ (binary), is palindromic in both bases. <br>
+In a CCSS meeting, Chantal recounts Adam's constant ramblings. Jerry Liu, the CCSS Vice President, pipes up. "Think that's cool?", Jerry says, "I can talk in binary 0110110001101111011011000010000001001001001001110110110100100000011000100110100101101100011010010110111001100111011101010110000101101100".<br><br>
 
-Find the sum of all numbers, less than one million, which are palindromic in base 10 and base 2. <br>
+Jerry continues, "Even cooler, I can count up in the numbers that are palindromic in both binary and decimal. Let's see, 1, 3, 5, 7, 9, 33, 99..."<br><br>
 
-(Please note that the palindromic number, in either base, may not include leading zeros.)
+The decimal number, $585 = 1001001001_2$ (binary), is palindromic in both bases. Beat Jerry to the punch by finding the sum of all numbers, less than one million, which are palindromic in base 10 and base 2. Note that the palindromic number, in either base, may not include leading zeros.
