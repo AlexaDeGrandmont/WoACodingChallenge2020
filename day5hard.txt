@@ -1,8 +1,0 @@
-Matthew MB, the CCSS Treasurer, is working on the CCSS budget. To calculate how much money needs to be spent on different events, he's adding the total of the rolls of five 6-sided dice. He discovers something interesting; there are 1111 ways in which these 5 dice can be rolled so that the top three sum to 15. Some examples are:<br><br>
-
-D1,D2,D3,D4,D5 = 4,3,6,3,5 <br>
-D1,D2,D3,D4,D5 = 4,3,3,5,6 <br>
-D1,D2,D3,D4,D5 = 3,3,3,6,6 <br>
-D1,D2,D3,D4,D5 = 6,6,3,3,3 <br><br>
-
-In how many ways can twenty 12-sided dice (sides numbered 1 to 12) be rolled so that the top ten sum to 70?
