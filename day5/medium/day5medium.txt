@@ -1,11 +1,8 @@
-There is only one solution to this puzzle. <br>
-Find a number consisting of 9 digits in which each of the digits from 1 through 9 appear only once. This number must satisfy the following requirements:<br>
+After your 2804 class, you head to Mike's Place with the CCSS Director of Academics and 2804 TA, Alexa de Grandmont. While you're having a drink and some curry, Alexa proposes the following game:<br><br>
 
+Alexa has nine four-sided (pyramidal) dice, each with faces numbered 1, 2, 3, 4. <br>
+You have six six-sided (cubic) dice, each with faces numbered 1, 2, 3, 4, 5, 6. <br><br>
 
-1. The number should be evenly divisible by 9. <br>
+You and Alexa roll your dice and compare totals: the highest total wins. The result is a draw if the totals are equal.<br><br>
 
-2. If the right most digit is removed, the remaining 8-digit number should be evenly divisible by 8. <br>
-
-3. If then again the right most digit is removed, the remaining 7-digit number should be evenly divisible by 7. <br>
-
-4. Etc, etc... until the last remaining 1 digit number is evenly divisble by 1. <br>
+What is the probability that Alexa beats you? Give your answer rounded to seven decimal places in the form 0.abcdefg.<br>
