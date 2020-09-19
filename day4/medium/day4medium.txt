@@ -1,8 +1,12 @@
-Consider the following game: <br>
+Malcolm Smith, the CCSS Director of Social (and slayer of worlds), forgot the password to his cuLearn page, and has to hand in his paper on being in the middle. However, he remembers the password hint, which is the following: <br>
 
-Player 1 has nine four-sided (pyramidal) dice, each with faces numbered 1, 2, 3, 4. <br>
-Player 2 has six six-sided (cubic) dice, each with faces numbered 1, 2, 3, 4, 5, 6. <br>
+The password is a number consisting of 9 digits in which each of the digits from 1 through 9 appear only once. This number must satisfy the following requirements:<br>
 
-Player 1 and Player 2 roll their dice and compare totals: the highest total wins. The result is a draw if the totals are equal. <br>
 
-What is the probability that Player 1 beats Player 2? Give your answer rounded to seven decimal places in the form 0.abcdefg. <br>
+1. The number should be evenly divisible by 9. <br>
+
+2. If the rightmost digit is removed, the remaining 8-digit number should be evenly divisible by 8. <br>
+
+3. If then again the rightmost digit is removed, the remaining 7-digit number should be evenly divisible by 7. <br>
+
+4. Etc, etc... until the last remaining 1 digit number is evenly divisible by 1. <br>
