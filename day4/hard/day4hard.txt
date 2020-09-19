@@ -1,8 +1,25 @@
-There are 1111 ways in which five 6-sided dice (sides numbered 1 to 6) can be rolled so that the top three sum to 15. Some examples are:
+Ever since the Tech Talk on hacking yesterday, you have become engrossed by computer security and cryptography. It piqued your interest so much that you spent all night following a rabbit hole of online tutorials on how to become an elite hackerman/hackerwoman. By the morning, you have cracked the code! You learn that RSA encryption is based on the following procedure: <br>
+<ul>
+<li>Generate two distinct primes $p$ and $q$.</li>
+<li>Compute $n=pq$ and $\phi=(p-1)(q-1)$.</li>
+<li>Find an integer $e$, $1 < e < \phi$, such that $gcd(e,\phi)=1$.</li>
+</ul>
+A message in this system is a number in the interval $[0,n-1]$. <br>
+A text to be encrypted is then somehow converted to messages (numbers in the interval $[0,n-1]$). <br>
+To encrypt the text, for each message, $m$, $c=m^e \text{mod } n$ is calculated. <br>
 <br>
-D1,D2,D3,D4,D5 = 4,3,6,3,5 <br>
-D1,D2,D3,D4,D5 = 4,3,3,5,6 <br>
-D1,D2,D3,D4,D5 = 3,3,3,6,6 <br>
-D1,D2,D3,D4,D5 = 6,6,3,3,3 <br>
+To decrypt the text, the following procedure is needed: calculate $d$ such that $ed=1 \text{ mod } \phi$, then for each encrypted message, $c$, calculate $m=c^d \text{mod } n$. <br>
 <br>
-In how many ways can twenty 12-sided dice (sides numbered 1 to 12) be rolled so that the top ten sum to 70?
+There exist values of e and m such that me mod n=m.
+We call messages m for which me mod n=m unconcealed messages.
+<br>
+An issue when choosing $e$ is that there should not be too many unconcealed messages.
+For instance, let $p=19$ and $q=37$. <br>
+Then $n=19 \cdot 37=703$ and $\phi=18 \cdot 36=648$. <br>
+If we choose $e=181$, then, although $gcd(181,648)=1$, it turns out that all possible messages
+$m, (0 \leq m \leq n-1)$, are unconcealed when calculating $m^e \text{mod } n$. <br>
+For any valid choice of $e$ there exist some unconcealed messages. <br>
+It's important that the number of unconcealed messages is at a minimum. <br>
+<br>
+Choose $p=1009$ and $q=3643$.
+Find the sum of all values of $e$, $1 < e < \phi(1009,3643)$ and $gcd(e,\phi)=1$, so that the number of unconcealed messages for this value of $e$ is at a minimu
